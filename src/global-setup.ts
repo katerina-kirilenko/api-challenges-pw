@@ -14,7 +14,7 @@ async function globalSetup() {
   const GUID = headers['x-challenger'];
 
   process.env.GUID = GUID;
-  console.log('[GUID]', GUID);
+  console.log('01 [GUID]', GUID);
 }
 
 export default globalSetup;
