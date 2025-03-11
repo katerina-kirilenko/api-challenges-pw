@@ -1,6 +1,6 @@
 import { request } from '@playwright/test';
 import * as dotenv from 'dotenv';
-import { URLs } from './enums/urls.const';
+import { URLs } from './types';
 
 dotenv.config();
 
