@@ -8,4 +8,11 @@ export const ErrorMessage = {
   amendId: 'Can not amend id from 1 to 99',
   todoNotFound: (id: number) => `Could not find an instance with todos/${id}`,
   unsupportedContentType: (type: string) => `Unsupported Content Type - ${type}`,
+  notAllowed: 'Method Not Allowed',
+  serverError: 'Server Error',
+  notImplemented: 'Not Implemented',
+  noContent: 'No Content',
+  unauthorized: 'Unauthorized',
+  forbidden: 'Forbidden',
+  badRequest: 'Bad Request',
 };

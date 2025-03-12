@@ -1,4 +1,4 @@
-export type Todo = {
+type Todo = {
   id?: number;
   title: string;
   description?: string;
@@ -35,9 +35,17 @@ export const extraLongString =
   '\n' +
   'Sed vestibulum auctor congue. Quisque eget laoreet quam, ac vestibulum orci. Cras quis finibus diam, vel congue nulla. Cras sed urna suscipit, sodales mauris id, consequat elit. Duis mattis purus vitae orci posuere, et fringilla nisl lacinia. Cras tortor sem, imperdiet id turpis in, bibendum eleifend elit. Proin sed elit nisi. Maecenas enim nunc, cursus ut consequat vitae, sagittis ut odio. Sed ac semper mauris. Maecenas pretium venenatis sem, et pulvinar erat. Ut eget est vitae risus lacinia pellentesque. Pellentesque eu laoreet dui. Proin ornare posuere ornare. In tempor mattis massa nam.';
 
+export const xmlTitle = 'file paperwork today';
+
 export const xmlBody = `
   <todo>
     <doneStatus>true</doneStatus>
-    <title>file paperwork today</title>
+    <title>${xmlTitle}</title>
   </todo>
 `;
+
+export const adminBase64 = 'YWRtaW46cGFzc3dvcmQ='; // admin:password
+
+export const notAdminBase64 = 'bm90IGFkbWluL3Bhc3N3b3Jk'; // not admin/password
+
+export const firstNote = { note: 'my note' };
